@@ -10,7 +10,7 @@ bot = telebot.TeleBot(token)
 user_state = {}
 
 # Список всех уровней образования
-all_education_levels = ["Бакалавриат\n🎓",
+all_education_levels = ["Бакалавриат\n🎓 ",
                         "Специалитет\n🎓",
                         "Магистратура\n🎓🎓",
                         "Аспирантура\n🎓🎓🎓",
@@ -1961,3 +1961,4 @@ def get_messages_list_abitur(message):
 
 # Запуск бота
 bot.infinity_polling(timeout=10, long_polling_timeout = 5)
+
